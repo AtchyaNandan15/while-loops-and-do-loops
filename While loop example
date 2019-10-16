@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+main () 
+{
+	
+	int mark, counter = 0, sum = 0;
+	float average;
+	
+	cout<<" Enter a mark out of 10 -> ";
+	cin>> mark;
+	
+	while(mark>=0) {
+	
+	// counter = counter + 1;
+	counter++;
+	//sum = sum+ mark
+	sum += mark;
+	
+		cout<<" Enter a mark out of 10 -> ";
+	cin>> mark;
+	
+}
+
+	cout<<" the sum is " <<sum;
+	average = sum/counter;
+	cout<<" you average is " <<average;
+	
+}
+
