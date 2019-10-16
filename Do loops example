@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+main() 
+{
+	float mark, count=-1, sum=0;
+	float average;
+	
+	do{
+		sum = sum + mark;
+		count++;
+		cout<<" Enter a mark out of 1- -> ";
+		cin>> mark;
+		
+	}while(mark>=0);
+	cout<<" your sum is " <<sum;
+	
+	average = sum/count;
+	cout<<" your average is "<<average;
+}
