@@ -13,6 +13,7 @@ using namespace std;
 int main()
 {
     string name;
+    string quit;
     int i;
     
     
@@ -22,10 +23,10 @@ int main()
     while ('name') {
         
          if ("name") {
-         cout<<" Hello " <<name;
+         cout<<" Have a good day " <<name;
          }
          
-         else if("QUIT") {
+         else if('quit') {
              cout<<" exit ";
          }
         
