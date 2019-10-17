@@ -20,24 +20,19 @@ int main()
     cout<<" Enter a name ";
     cin>> name;
     
-    while ('name' || 'QUIT') {
-        
-         if ("name") {
+    do {
+     
+    if ("name") {
          cout<<" Have a good day " <<name<< "\n";
          }
-         
-         else if ("QUIT") {
-         cout<<" exit ";
-         } 
-       
+        
         cout<<" Enter a name ";
         cin>>name;
-        
     
-        
-     
-        
     }
+    while (name != "quit") ;
+    
+    
     
     
 }
