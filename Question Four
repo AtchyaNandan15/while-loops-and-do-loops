@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+main()
+{
+    string name;
+	int age=0, counter=-1, sum=0;
+	float average;
+	
+	do{
+		//sum = sum +  age;
+		counter ++;
+		cout<<" Enter a name and you age ";
+		cin>>name;
+		cin>>age;
+		
+	}while(name != "quit");
+	cout<<" the oldest is ";
+	
+	average = sum/counter;
+	cout<<" the average age in your class is "<<average;
+}
+
+	
+
+
