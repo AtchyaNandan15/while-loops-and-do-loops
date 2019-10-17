@@ -21,15 +21,14 @@ int main()
      cin>> num1;
      
      if (num1<100)
-     cout<<" You are under "; 
+     cout<<" You are under \n "; 
        
      else if (num1>100)  
-     cout<<" You are over ";
+     cout<<" You are over \n ";
      
-     else if (num1==100)
-     cout<<" You are correct ";
    }
-   while(num1==100);
+   while(num1!=100);
+   cout<<" you are correct ";
    
    
 }
