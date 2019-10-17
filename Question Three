@@ -13,25 +13,29 @@ using namespace std;
 int main()
 {
     string name;
-    string quit;
+    string QUIT;
     int i;
     
     
     cout<<" Enter a name ";
     cin>> name;
     
-    while ('name') {
+    while ('name' || 'QUIT') {
         
          if ("name") {
-         cout<<" Have a good day " <<name;
+         cout<<" Have a good day " <<name<< "\n";
          }
          
-         else if('quit') {
-             cout<<" exit ";
-         }
-        
+         else if ("QUIT") {
+         cout<<" exit ";
+         } 
+       
         cout<<" Enter a name ";
         cin>>name;
+        
+    
+        
+     
         
     }
     
