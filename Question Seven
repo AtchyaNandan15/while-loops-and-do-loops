@@ -1,0 +1,69 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+int user;
+int computer;
+int win;
+int winner;
+int lost;
+int end;
+int name;
+int randomnumber;
+
+do {
+    
+
+     srand(time(0)); 
+     
+
+     cout<<" 1 for Rock\n ";
+     cout<<"2 for Paper\n";
+     cout<<" 3 for Scissors\n";
+     cout<<"----------------------\n";
+     
+    cin>>name;
+    
+randomnumber = rand() % 3 + 1 ;
+
+if (name>3) {
+    cout<<" End Game ";
+}
+
+ 
+else if ((randomnumber==3 && name==2 ) || (randomnumber==1 && name==3) || (randomnumber==2 && name==1)) {
+   cout<<" You win \n";
+   
+
+   
+}
+   
+  
+else  {
+      cout<<" The computer won \n";
+  
+  
+  }
+  
+
+
+   }
+while(name<=3);
+
+if (name == 10) {
+    cout<<" You won";
+}
+
+
+}
