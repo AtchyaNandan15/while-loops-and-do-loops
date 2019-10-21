@@ -1,10 +1,10 @@
-/******************************************************************************
+/*/******************************************************************************
 
                               Online C++ Compiler.
                Code, Compile, Run and Debug C++ program online.
 Write your code in this editor and press "Run" button to compile and execute it.
 
-*******************************************************************************/
+******************************************************************************
 
 #include <iostream>
 
@@ -71,6 +71,8 @@ if (name == 10) {
 
 ///////////////////////////////////////////////////////////////
 
+*/
+
 /******************************************************************************
 
                               Online C++ Compiler.
@@ -96,6 +98,8 @@ int end;
 int name;
 int randomnumber;
 
+
+while (user); {
 do {
     
 
@@ -134,19 +138,23 @@ else
 }
 
 while(name<=3);
+     
+     
+if (name>3) {
 
-
-
-if (winner2 == 5) {
+if (winner2 == 2) {
              cout<<" final result: compuer won";
              //break;
 }
 
-if (winner1 == 6) {
+if (winner1 == 2) {
              cout<<" final result: You won";
             // break;
         }
-      
+     
+}
+}
+  
 
 }
 
