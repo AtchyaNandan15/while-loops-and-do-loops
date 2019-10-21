@@ -3,24 +3,35 @@ using namespace std;
 
 main()
 {
-    string name;
-	int age=0, counter=-1, sum=0;
+    string name, oldname;
+	int age=0, counter=-1, sum=0, old=-2;
 	float average;
 	
 	do{
-		//sum = sum +  age;
+		sum = sum +  age;
 		counter ++;
 		cout<<" Enter a name and you age ";
 		cin>>name;
 		cin>>age;
 		
-	}while(name != "quit");
-	cout<<" the oldest is ";
+	if (old<age) {
+	old=age;
+	oldname=name;
+	}
+		
+		
+	}while(name != "quit now");
+
 	
 	average = sum/counter;
 	cout<<" the average age in your class is "<<average;
+	
+	
+	cout<<" The oldest is " <<oldname<<  " the age is " <<old;
 }
 
 	
+
+
 
 
