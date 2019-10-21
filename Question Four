@@ -20,7 +20,7 @@ main()
 	}
 		
 		
-	}while(name != "quit now");
+	}while(name != "quit");
 
 	
 	average = sum/counter;
@@ -31,7 +31,5 @@ main()
 }
 
 	
-
-
 
 
