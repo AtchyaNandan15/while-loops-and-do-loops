@@ -9,8 +9,8 @@ int main()
 int user;
 int computer;
 int win;
-int winner1;
-int winner2;
+int winner1=0;
+int winner2=0;
 int lost;
 int end;
 int name;
@@ -58,26 +58,29 @@ else if  ((randomnumber==1 && name==1) || (randomnumber==2 && name==2) || (rando
 }
 
 //the computer wins the game
-else 
+else if  ((randomnumber==1 && name==2 ) || (randomnumber==3 && name==1) || (randomnumber==2 && name==3))  {
       cout<<"  The computer won \n";
       
       // counts if the computer wins it
         winner2 = winner2 +1;
         
+}
+        
         //outputs after 10 games of win
-if (winner2 == 2) {
+if  (winner2 == 2) {
              cout<<" final result: compuer won";
-             //break;
+          
 }
 
 //outputs after 10 games of win
 else if (winner1 == 2) {
              cout<<" final result: You won";
-            // break;
+          
         }
 
 
-}while((winner1 == 2 ) || (winner2 == 2));
+//}while((winner1 < 2 ) && (winner2 < 2));
+}while (name<=3);
 
 
      
