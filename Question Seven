@@ -65,37 +65,26 @@ else if  ((randomnumber==1 && name==2 ) || (randomnumber==3 && name==1) || (rand
         winner2 = winner2 +1;
         
 }
-        
+    
+
+
+}while((winner1 < 2 ) && (winner2 < 2));
+//}while (name<=3);
+
+
+            
         //outputs after 10 games of win
-if  (winner2 == 2) {
-             cout<<" final result: compuer won";
+if  (winner1 == 2)  {
+             cout<<" final result: compuer won\n";
           
 }
 
 //outputs after 10 games of win
-else if (winner1 == 2) {
-             cout<<" final result: You won";
+else if (winner2 == 2) {
+             cout<<" final result: You won\n";
           
-        }
+        } 
 
-
-//}while((winner1 < 2 ) && (winner2 < 2));
-}while (name<=3);
-
-
-     
-/*outputs after 10 games of win
-if (winner2 == 2) {
-             cout<<" final result: compuer won";
-             //break;
-}
-
-//outputs after 10 games of win
-if (winner1 == 2) {
-             cout<<" final result: You won";
-            // break;
-        }
-*/
   
 
 }
