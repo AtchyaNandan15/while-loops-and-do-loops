@@ -17,18 +17,18 @@ int main()
    
    do{
      
-     cout<<" Enter a number ";
+     cout<<" Guess a number ";
      cin>> num1;
      
      if (num1<100)
-     cout<<" You are under \n "; 
+     cout<<" The number you entered is under \n "; 
        
      else if (num1>100)  
-     cout<<" You are over \n ";
+     cout<<" The number you entered is over \n ";
      
    }
    while(num1!=100);
-   cout<<" you are correct ";
+   cout<<" Congratulations you are correct ";
    
    
 }
