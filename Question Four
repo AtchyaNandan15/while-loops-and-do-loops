@@ -1,3 +1,20 @@
+
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date October 23rd  2019                                                                            
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Learn how to use do and while loops                                                      
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  string name ................................ the user inputs their name 
+                    string oldname................................the name with the oldest age
+		    int age.......................................the user enters the age
+		    int old...........................................the programs ouputs the oldest age
+		    int counter..............................................counts the age
+		    int sum...................................................counts the sum of the age
+		    float average................................................outputs the average age from the users input
+* 
+********************************************************************************************************************/
+
 #include<iostream>
 using namespace std;
 
