@@ -10,7 +10,7 @@ main()
 	do{
 		sum = sum +  age;
 		counter ++;
-		cout<<" Enter a name and you age ";
+		cout<<" Enter a name and you age and to quit type ""quit 0"": ";
 		cin>>name;
 		cin>>age;
 		
