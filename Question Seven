@@ -1,4 +1,17 @@
 
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date October 23rd  2019                                                                            
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Learn how to use do and while loops                                                      
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  int name................................ the user inputs 1 for rock, 2 for paper or 3 for scissors
+                    int randomnumber............................random number between 1, 2 and 3
+                    int winner1.................................counter if the user wins
+                    int winner2..................................counter if the computer wins
+* 
+********************************************************************************************************************/
+
 #include <iostream>
 
 using namespace std;
@@ -6,13 +19,9 @@ using namespace std;
 int main()
 {
 
-int user;
-int computer;
-int win;
+
 int winner1=0;
 int winner2=0;
-int lost;
-int end;
 int name;
 int randomnumber;
 
