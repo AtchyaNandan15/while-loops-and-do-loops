@@ -16,20 +16,25 @@ using namespace std;
 
 int main()
 {
-
+    //delacre variables
     int purchase;
     int sum;
 
+//the do loops that asks for the purchases
 do{
+   //the counter for the sum
     sum = sum + purchase;
     
     cout<<"--------------------------------------------------------------------------------- \n ";
-    cout<<" If you have no purchases enter 0 if not \n Enter your purchases -> \n  ";
+    cout<<" If you have no purchases enter 0 if not \n Enter your purchases $ -> \n  ";
     cin>> purchase;
 }
+//when the loop ends
  while (purchase>0);
+ //the total of your purchases
  cout<<" your  total purchase is $" <<sum<< " \n";
  cout<<" ---------------------------------- \n ";
+ //the total purchases with tax
  cout<<" the total with HST is $" <<sum*0.13+sum<< " \n ";
  
  
