@@ -58,7 +58,7 @@ else if  ((randomnumber==1 && name==1) || (randomnumber==2 && name==2) || (rando
 }
 
 //the computer wins the game
-else if  ((randomnumber==1 && name==2 ) || (randomnumber==3 && name==1) || (randomnumber==2 && name==3))  {
+else   {
       cout<<"  The computer won \n";
       
       // counts if the computer wins it
@@ -68,21 +68,26 @@ else if  ((randomnumber==1 && name==2 ) || (randomnumber==3 && name==1) || (rand
     
 
 
-}while((winner1 < 2 ) && (winner2 < 2));
+}while((winner1 < 10 ) && (winner2 < 10));
 //}while (name<=3);
 
 
             
         //outputs after 10 games of win
-if  (winner1 == 2)  {
-             cout<<" final result: compuer won\n";
+if  (winner1 == 10)  {
+             cout<<"*****************************\n";
+             cout<<" Final result: compuer won!!!\n";
+             cout<<"*****************************\n";
+
           
 }
 
 //outputs after 10 games of win
-else if (winner2 == 2) {
-             cout<<" final result: You won\n";
-          
+else if (winner2 == 10) {
+            cout<<"*****************************\n";
+            cout<<" Final result: You won!!!\n";
+            cout<<"*****************************\n";
+
         } 
 
   
