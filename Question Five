@@ -1,10 +1,14 @@
-/******************************************************************************
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date October 23rd  2019                                                                            
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Learn how to use do and while loops                                                      
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  int purchase.....................................the user enters their purchases
+                    int sum..........................................the program outputs the sum of the purchases
+* 
+********************************************************************************************************************/
 
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
 
 #include <iostream>
 
